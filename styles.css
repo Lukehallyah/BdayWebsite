@@ -1,0 +1,128 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url("Images/pinkbow.png");
+    background-repeat: repeat;
+    background-size: 250px;
+}
+
+/*this is actually really cool. Downloaded the pick and then linked here. 
+        background-image(obviously links the pic)
+        background-repeat(repeats it across the page)
+        background-size: (changes the size of each img)*/
+
+body,ul{
+    margin: 0;
+    padding: 0;
+}
+
+/*chatgpt helped. The default margin and padding was adding a space to the left in the navbar,
+specifically next to the tabs. Was getting kinda annoying*/
+
+main{
+    width: 600px;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+
+
+}
+
+ul.tabs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+li{
+    display:inline;
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+    padding: 5px 0;
+    background-color: linear-gradient();
+}
+/*These borders are only temporary, they are to be able to style and things and I 
+will erase When I am done*/
+
+
+/*display inline because "li" is usually block elements. By displaying them inline
+it helps to make them 'on the same line' or inline*/
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:pink;
+}
+/*these will link to other web pages. For my nav bar at the top*/
+
+.opening{
+    width: 600px;
+    background-color: rgb(168, 209, 245);
+    margin:auto;
+}
+
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+p.caption{
+    margin-top:0;
+    width: 300px;
+    font-family: "Playwrite AU NSW", cursive;
+    font-size: 0.8rem;
+}
+
+.divtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    gap:40px;
+
+}
+
+.nicknames{
+    width:auto;
+}
+
+.nicknames p{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: "Playwrite AU NSW", cursive;
+   font-size: 0.75rem;
+}
+
+.youandmeimg{
+    border: 10px solid rgb(247, 244, 244);
+    border-style: double;
+    width: 300px;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption{
+    font-family: "Brush Script MT", cursive;
+}
