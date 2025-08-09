@@ -18,3 +18,15 @@ and get around to the actual coding part of making this website for your
 birthday baby. It's kind of daunting and exciting all at the same time
 and I can't wait to see what you think baby. I love you more than anything
 baby and I'll do my absolute best po chu
+
+
+
+NOTE (August 8, 2025)
+
+The first web page is mostly done, I'm not overall happy with the design but 
+the barebones are there along with navbar and everything. I want to make it
+prettier for you chu, I guess I'll see how it goes as time goes on.
+
+The main issue is you can't see the background is a beautiful field of tulips
+because of how I designed it. Then again I might go back and change the css to 
+optimize it for mobile too. 
