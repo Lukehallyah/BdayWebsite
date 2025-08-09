@@ -11,7 +11,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 /*this is actually really cool. Downloaded the pick and then linked here. 
         background-image(obviously links the pic)
         background-repeat(repeats it across the page)
@@ -21,7 +20,6 @@ body,ul{
     margin: 0;
     padding: 0;
 }
-
 /*chatgpt helped. The default margin and padding was adding a space to the left in the navbar,
 specifically next to the tabs. Was getting kinda annoying*/
 
@@ -35,6 +33,8 @@ main{
     background-size: cover;
     color: white;
 }
+
+
 
 .navbar{
     display: flex;
@@ -76,6 +76,8 @@ a:hover{
     color:pink;
 }
 /*these will link to other web pages. For my nav bar at the top*/
+
+
 
 .opening{
     width: 600px;
@@ -178,5 +180,8 @@ p.caption{
 
 
 
-
+/*This is done for now. I've made the homepage and while I"m not entirely happy with it, I know
+that I will come up with other ideas as I'm designing the other html. This is actually kind of fun
+    8-9-25
+*/
 
