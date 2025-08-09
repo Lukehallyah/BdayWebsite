@@ -78,7 +78,8 @@ a:hover{
 /*these will link to other web pages. For my nav bar at the top*/
 
 .opening{
-    width: 600px;
+    width:80vw;
+    max-width: 600px;
     background: radial-gradient(circle,white, #9c9cce, #7b8cca, #4040ad);
     margin:auto;
     color: white;
