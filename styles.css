@@ -149,8 +149,11 @@ p.caption{
     font-family: "Playwrite AU NSW", cursive;
     text-align: center;
     margin-bottom: -10px;
-    background-color: #f39292;
-    border-radius: 20px;
+    background: url(Images/clouds.jpeg);
+    background-size: cover;
+    color: white;
+    border-radius: 15px;
+   
 }
 
 .main-opening{
