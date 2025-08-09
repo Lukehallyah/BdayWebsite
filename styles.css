@@ -30,6 +30,12 @@ main{
     margin: auto;
 }
 
+.title{
+    background: url(Images/clouds.jpeg);
+    background-size: cover;
+    color: white;
+}
+
 .navbar{
     display: flex;
 
