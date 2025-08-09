@@ -30,6 +30,22 @@ section.describe{
    
 }
 
+/*CHATGPT*/
+@media (max-width: 500px) {
+  .youare {
+    width: 95vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    height: auto;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+/*CHATGPT*/
+
 p{
     border: 2px solid black;
      padding:0;
