@@ -156,9 +156,12 @@ p.caption{
     border-radius: 15px;
    
 }
-
+.bowrow{
+    width: 8%;
+}
 .bow, .bow-2{
    display:flex;
+   justify-content: center;
 }
 
 .bow-2{
