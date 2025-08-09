@@ -167,13 +167,26 @@ p.caption{
     padding: 0 10px;
   }
 
- 
-  li {
-    width: 100%;
-    border-radius: 8px;
-    padding: 10px 0;
+   .navbar {
+    /* keep flex row */
+    flex-direction: row;
+    overflow-x: auto; /* allow horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
   }
 
+  ul.tabs {
+    flex-direction: row;
+    gap: 8px;
+    width: max-content; /* shrink to content width */
+  }
+
+  li {
+    flex: 0 0 auto; /* prevent shrinking */
+    min-width: 80px; /* or whatever width looks good */
+    border-radius: 8px;
+    padding: 10px 5px;
+  }
+}
   .divtitle {
     flex-direction: column;
     gap: 20px;
