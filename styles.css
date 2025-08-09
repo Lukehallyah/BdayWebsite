@@ -51,8 +51,9 @@ li{
     padding: 5px 0;
     background-color: linear-gradient();
 }
-/*These borders are only temporary, they are to be able to style and things and I 
-will erase When I am done*/
+/*I'm finished for tonight
+I didn't even do my freecodecamp but feel like I learned so much about coding tonight.
+The term "tuturiol hell" is an apt term, you learn almost nothing and waste alot of time*/
 
 
 /*display inline because "li" is usually block elements. By displaying them inline
@@ -125,4 +126,19 @@ p.caption{
 
 .caption{
     font-family: "Brush Script MT", cursive;
+}
+
+
+
+.happybirthday{
+    background-color: rgb(236, 186, 230);
+    padding-top: 0;
+    margin-top: -32px;
+}
+
+.birthday{
+    font-size: 32px;
+    font-family: "Playwrite AU NSW", cursive;
+    text-align: center;
+
 }
