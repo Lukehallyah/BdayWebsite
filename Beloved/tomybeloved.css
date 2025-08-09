@@ -23,9 +23,10 @@ section.describe{
     display: grid;
     width: 100vw;
     max-width: 600px;
-    height: 600px;
+    aspect-ratio: 5/4;
     border: 2px solid black;
     grid-template: repeat(4,1fr) / repeat(5, 1fr);
+    gap: 0.25rem;
    
 }
 
