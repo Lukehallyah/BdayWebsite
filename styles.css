@@ -79,8 +79,9 @@ a:hover{
 
 .opening{
     width: 600px;
-    background-color: rgb(168, 209, 245);
+    background: radial-gradient(white, #9c9cce, #7b8cca, #4040ad);
     margin:auto;
+    color: white;
 }
 
 
