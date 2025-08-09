@@ -161,32 +161,32 @@ p.caption{
 
 /*THIS IS A TEST CHATGPT CODE*/
 /* Mobile optimization */
+/* Mobile optimization */
 @media (max-width: 600px) {
   main, .opening {
     width: 100%;
     padding: 0 10px;
   }
 
-   .navbar {
-    /* keep flex row */
-    flex-direction: row;
-    overflow-x: auto; /* allow horizontal scrolling */
-    -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+  .navbar {
+    flex-direction: row; /* keep in row */
+    overflow-x: auto; /* horizontal scroll if needed */
+    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
   }
 
   ul.tabs {
-    flex-direction: row;
+    flex-direction: row; /* keep in row */
     gap: 8px;
-    width: max-content; /* shrink to content width */
+    width: max-content; /* shrink to content */
   }
 
   li {
     flex: 0 0 auto; /* prevent shrinking */
-    min-width: 80px; /* or whatever width looks good */
+    min-width: 80px; /* adjust for tappable size */
     border-radius: 8px;
-    padding: 10px 5px;
+    padding: 10px 0;
   }
-}
+
   .divtitle {
     flex-direction: column;
     gap: 20px;
