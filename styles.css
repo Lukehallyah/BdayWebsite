@@ -79,7 +79,7 @@ a:hover{
 
 .opening{
     width: 600px;
-    background: radial-gradient(white, #9c9cce, #7b8cca, #4040ad);
+    background: radial-gradient(circle,white, #9c9cce, #7b8cca, #4040ad);
     margin:auto;
     color: white;
 }
@@ -140,7 +140,7 @@ p.caption{
 
 
 .happybirthday{
-    background-color: rgb(236, 186, 230);
+    background: linear-gradient(#ebd9e8, #dba994, #e68181, #e95c5c);
     padding: 0 10px 10px;
     margin-top: -32px;
 }
@@ -155,6 +155,14 @@ p.caption{
     color: white;
     border-radius: 15px;
    
+}
+
+.bow, .bow-2{
+   display:flex;
+}
+
+.bow-2{
+    margin-top: -10px;
 }
 
 .main-opening{
