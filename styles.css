@@ -26,7 +26,8 @@ body,ul{
 specifically next to the tabs. Was getting kinda annoying*/
 
 main{
-    width: 600px;
+    width: 80vw;
+    max-width: 600px;
     margin: auto;
 }
 
