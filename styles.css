@@ -154,3 +154,66 @@ p.caption{
 
    
 }
+
+
+
+
+
+/*THIS IS A TEST CHATGPT CODE*/
+/* Mobile optimization */
+@media (max-width: 600px) {
+  main, .opening {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul.tabs {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  li {
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 0;
+  }
+
+  .divtitle {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .youandmeimg {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-width: 5px;
+  }
+
+  p.caption {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .birthday {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .main-opening {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .nicknames p {
+    font-size: 0.85rem;
+  }
+}
