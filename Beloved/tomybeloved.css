@@ -1,3 +1,15 @@
+/*The goal of this website is to make it as mobile friendly as I can, realizing
+that she's going to be viewing it on her phone mostly. I still could add some things
+for desktop but I think for the most part my baby going to be seeing on her phone. 
+
+I love you so much baby, this is kind of fun making this for you, and I can't wait 
+to see what you think. You're going thru alot right now chu and I would do anything
+right now baby to lighten your burden and your load and make things seem a little
+lighter even if just for a moment po  8-10-25*/
+
+
+
+
 html{
     font-size: 16px;
     font-family:Arial, Helvetica, sans-serif;
@@ -24,6 +36,10 @@ section.describe{
 .main-title{
     text-align: center;
     font-family: "Playfair Display", serif;
+    background: url(../Images/pinktulips.png);
+    background-size: contain;
+    width: 620px;
+    color:aliceblue;
 
 }
 .main-title h1{
@@ -64,6 +80,10 @@ section.describe{
     font-size: 14px;
   }
 
+  .main-title{
+    background-size: contain;
+    width: 100vw;
+  }
 
 }
 
