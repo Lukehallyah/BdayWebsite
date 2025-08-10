@@ -77,6 +77,8 @@ section.describe{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 5vh;
+
 }
 
 .main-opening p{
