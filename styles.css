@@ -24,7 +24,7 @@ body,ul{
 specifically next to the tabs. Was getting kinda annoying*/
 
 main{
-   width: 600px;
+   max-width: 600px;
     margin: auto;
 }
 
@@ -126,7 +126,9 @@ p.caption{
 .youandmeimg{
     border: 10px solid rgb(247, 244, 244);
     border-style: double;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
 }
 
 .img{
@@ -173,7 +175,8 @@ p.caption{
 .main-opening{
     width: 90%;
     margin: auto;
-    text-align: justify;
+    text-align: left;
+    line-height: 1.5rem;
 
    
 }
