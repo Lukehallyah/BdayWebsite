@@ -85,6 +85,8 @@ section.describe{
     width: 80vw;
     max-width: 500px;
     text-align: center;
+    font-family: "Playfair Display", serif; 
+
 }
 
 /*CHATGPT*/
@@ -213,3 +215,8 @@ p{
     grid-row:4/5;
     background-color: rgb(133, 224, 133);
 }
+
+
+/*The basic structure of this page and css is done for now, might try and restructure the main page as
+it's all over the place. Learned alot from this one baby, I hope it makes you smile when you see this and remember
+my pretty pretty baby. I love you so much my gorgeous sunshine 8/10/25*/
