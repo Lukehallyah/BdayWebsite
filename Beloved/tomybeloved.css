@@ -99,7 +99,7 @@ section.describe{
   }
 
   .main-title{
-    background-size: contain;
+    background-size: 100%;
     width: 100vw;
   }
 
