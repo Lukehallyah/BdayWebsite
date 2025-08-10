@@ -36,10 +36,12 @@ section.describe{
 .main-title{
     text-align: center;
     font-family: "Playfair Display", serif;
-    background: url(../Images/pinktulips.png);
-    background-size: contain;
+    background: url(../Images/pinktulips);
+    background-size:100%;
+    background-position: center 80%;
+    background-repeat: no-repeat;
     width: 620px;
-    color:aliceblue;
+    color:white;
 
 }
 .main-title h1{
