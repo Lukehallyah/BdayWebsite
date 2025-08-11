@@ -220,4 +220,8 @@ that I will come up with other ideas as I'm designing the other html. This is ac
         font-size:0.65rem;
         margin-top:-10px;
     }
+
+    .navbar .tabs a{
+        font-size:0.9rem;
+    }
 }
