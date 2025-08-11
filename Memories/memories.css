@@ -15,11 +15,14 @@ main{
 }
 
 .title{
+    width: 60vw;
+    max-width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: "Playfair Display", serif;
+    border: 5px solid black;
 }
 
 .title h1{
@@ -30,4 +33,26 @@ main{
 }
 .p-one{
     margin-top:0;
+}
+.p-two{
+    font-size: 0.8rem;
+    text-align: center;
+    width: 80%;
+}
+
+
+
+@media (max-width: 500px){
+
+    main{
+        width: 95vw;
+    }
+
+    .title{
+        width: 95vw;
+    }
+
+
+
+
 }
