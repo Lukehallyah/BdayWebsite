@@ -30,9 +30,11 @@ main{
     margin-bottom: 0;
     font-size: 2rem;
     font-weight: 300;
+    text-decoration: underline;
 }
 .p-one{
     margin-top:0;
+    text-decoration: underline;
 }
 .p-two{
     font-size: 0.8rem;
