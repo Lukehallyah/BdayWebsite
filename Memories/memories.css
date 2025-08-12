@@ -1,6 +1,8 @@
 *{
     font-size: 16px;
     box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+
 }
 
 body{
@@ -21,7 +23,6 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: "Playfair Display", serif;
     border: 5px solid black;
 }
 
@@ -35,14 +36,38 @@ main{
 .p-one{
     margin-top:0;
     text-decoration: underline;
+    font-size: 1.25rem;
 }
 .p-two{
     font-size: 0.8rem;
     text-align: center;
     width: 80%;
+    font-size: 1.125rem;
 }
 
 
+.memories{
+    display: grid;
+    width: 100vw;
+    max-width: 600px;
+    grid-template-columns: 50% 1fr;
+    grid-auto-rows: minmax(200px, auto); /*meaning auto rows, min of 100px and max auto minmax*/
+    text-align: center;
+
+}
+
+.memories img{
+    height: fit-content;
+}
+
+.memories h2{
+    font-size: 1.5rem;
+}
+
+.memories p{
+    font-size: 1.25rem;
+    padding: 0 10px;
+}
 
 @media (max-width: 500px){
 
@@ -54,7 +79,24 @@ main{
         width: 95vw;
     }
 
+    .memories{
+        width:95vw;
+        height: auto;
+        text-align: center;
+       
+    }
 
+    .memories h2{
+        font-size: 1rem;
+    }
 
+    .memories p{
+         font-size: 0.7rem;
+         padding: 0 10px;
+    }
+
+    .p-one, .p-two{
+        font-size: 0.75rem;
+    }
 
 }
