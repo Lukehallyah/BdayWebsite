@@ -50,7 +50,7 @@ main{
     display: grid;
     width: 100vw;
     max-width: 600px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-auto-rows: minmax(200px, auto); /*meaning auto rows, min of 100px and max auto minmax*/
     text-align: center;
 
