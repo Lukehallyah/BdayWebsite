@@ -2,6 +2,7 @@
     font-size: 16px;
     box-sizing: border-box;
     font-family: "Playfair Display", serif;
+    
 
 }
 
@@ -53,6 +54,7 @@ main{
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(200px, auto); /*meaning auto rows, min of 100px and max auto minmax*/
     text-align: center;
+    background-color: lightblue;
 
 }
 
@@ -70,6 +72,7 @@ main{
     font-size: 1.25rem;
     padding: 0 10px;
 }
+
 
 @media (max-width: 500px){
 
