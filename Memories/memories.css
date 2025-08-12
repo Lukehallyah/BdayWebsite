@@ -54,7 +54,7 @@ main{
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(200px, auto); /*meaning auto rows, min of 100px and max auto minmax*/
     text-align: center;
-    background-color: lightblue;
+    background-color: aliceblue;
 
 }
 
@@ -62,6 +62,8 @@ main{
     width: 100%;
     height: auto;
     display: block;
+    border: 5px solid black;
+    border-style:double;
 }
 
 .memories h2{
@@ -89,6 +91,7 @@ main{
         height: auto;
         text-align: center;
         grid-template-columns: 1fr;
+        background-color: aliceblue;
        
     }
 
