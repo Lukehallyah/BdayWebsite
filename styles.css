@@ -144,7 +144,7 @@ p.caption{
 
 
 .happybirthday{
-    background: linear-gradient(#ebd9e8, #dba994, #e68181, #e95c5c);
+    background: rgb(184, 190, 196);
     padding: 0 10px 10px;
     margin-top: -32px;
 }
