@@ -228,7 +228,7 @@ that I will come up with other ideas as I'm designing the other html. This is ac
    
     .nicknames p{
         font-size:0.65rem;
-        margin-top:-10px;
+        margin: 0;
     }
 
     .navbar .tabs a{
