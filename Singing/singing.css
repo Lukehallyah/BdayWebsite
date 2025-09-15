@@ -49,7 +49,7 @@ main{
     width: 100vw;
     max-width: 600px;
     grid-template-columns: 1fr;
-    grid-auto-rows: minmax(200px, auto); /*meaning auto rows, min of 100px and max auto minmax*/
+    grid-auto-rows:auto; /*meaning auto rows, min of 100px and max auto minmax*/
     text-align: center;
     background-color: aliceblue;
 }
@@ -57,11 +57,14 @@ main{
 .section2 h2{
     font-size: 1.5rem;
     text-decoration: underline;
+    line-height: 1.1;
+    
 }
 
 .section2 p{
     font-size: 1.25rem;
     padding: 0 10px;
+    line-height: 1.1;
 }
 
 .section2 video{
@@ -93,11 +96,13 @@ main{
 
      .section2 h2{
         font-size: 1rem;
+        
     }
 
     .section2 p{
          font-size: 0.7rem;
          padding: 0 10px;
+        
     }
 
     div.title p{
