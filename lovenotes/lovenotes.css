@@ -1,22 +1,39 @@
 *[
     font-size: 16px;
+    box-sizing: border-box;
     font-family: "Playfair Display", serif;
 ]
 body{
     padding:0;
     margin:0;
-
-
 }
 
-.header{
+main{
     max-width: 600px;
     margin: auto;
 
 }
 
-.notes{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 1;
+.title{
+    border: 5px solid black;
+    border-radius: 5px;
+    border-style: double;
 }
+
+.title h1{
+    font-size: 2.25rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.title p{
+    text-align: center;
+
+}
+
+.images img{
+   border: 5px solid black;
+   border-radius: 5px;
+   border-style: double;
+}
+
